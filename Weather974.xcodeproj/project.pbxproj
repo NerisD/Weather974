@@ -13,6 +13,7 @@
 		4A0255C21B4928290027A8F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0255C11B4928290027A8F9 /* Images.xcassets */; };
 		4A0255C51B4928290027A8F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A0255C31B4928290027A8F9 /* LaunchScreen.xib */; };
 		4A0255D11B4928290027A8F9 /* Weather974Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0255D01B4928290027A8F9 /* Weather974Tests.swift */; };
+		4A0255DB1B4929360027A8F9 /* ListWeatherCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0255DA1B4929360027A8F9 /* ListWeatherCityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4A0255CA1B4928290027A8F9 /* Weather974Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Weather974Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A0255CF1B4928290027A8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A0255D01B4928290027A8F9 /* Weather974Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather974Tests.swift; sourceTree = "<group>"; };
+		4A0255DA1B4929360027A8F9 /* ListWeatherCityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListWeatherCityViewController.swift; path = ListWeatherCity/ListWeatherCityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		4A0255AC1B4928290027A8F9 = {
 			isa = PBXGroup;
 			children = (
+				4A0255DA1B4929360027A8F9 /* ListWeatherCityViewController.swift */,
 				4A0255B71B4928290027A8F9 /* Weather974 */,
 				4A0255CD1B4928290027A8F9 /* Weather974Tests */,
 				4A0255B61B4928290027A8F9 /* Products */,
@@ -214,6 +217,7 @@
 			files = (
 				4A0255BD1B4928290027A8F9 /* ViewController.swift in Sources */,
 				4A0255BB1B4928290027A8F9 /* AppDelegate.swift in Sources */,
+				4A0255DB1B4929360027A8F9 /* ListWeatherCityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
