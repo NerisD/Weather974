@@ -164,6 +164,7 @@
 				TargetAttributes = {
 					4A0255B41B4928290027A8F9 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = JMX9BV4ZM4;
 					};
 					4A0255C91B4928290027A8F9 = {
 						CreatedOnToolsVersion = 6.4;
@@ -176,6 +177,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -346,9 +348,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JMX9BV4ZM4;
 				INFOPLIST_FILE = Weather974/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -356,9 +360,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JMX9BV4ZM4;
 				INFOPLIST_FILE = Weather974/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -415,6 +421,7 @@
 				4A0255D61B4928290027A8F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A0255D71B4928290027A8F9 /* Build configuration list for PBXNativeTarget "Weather974Tests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +430,7 @@
 				4A0255D91B4928290027A8F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
